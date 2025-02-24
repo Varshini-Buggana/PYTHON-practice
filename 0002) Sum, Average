@@ -1,0 +1,24 @@
+# 1) Write a Program to input 2 numbers and print their sum.
+
+      Program:-
+      first = int(input("Enter First element: "))
+      second = int(input("Enter Second elements: "))
+      print("Sum =", first + second)
+
+      Output:- 
+      Enter First element: 5
+      Enter Second elements: 8
+      Sum = 13
+# 2) Write a Program to input two floating point numbers and print their average
+
+      Program:-
+      num1 = float(input("Enter First number: "))
+      num2 = float(input("Enter Second number: "))
+      avg = (num1 + num2) / 2
+      print("Average of two numbers: ",avg)
+
+      Output:-
+      Enter First number: 4
+      Enter Second number: 5
+      Average of two numbers:  4.5
+      
