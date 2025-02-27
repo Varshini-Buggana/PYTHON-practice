@@ -1,0 +1,16 @@
+Strings based practice questions
+
+1) Write a program to input user's first name and print its length
+    Program:- 
+    name = input("Enter your name: ")
+    print("length of your name is: ",len(name))
+    Output:- 
+    Enter your name: varshini
+    length of your name is: 8
+    
+2) Write a program to find the occurence of '$' in a string 
+    Program:-
+    str = "Hello$ $World$"
+    print(str.count("$"))
+    Output:- 
+    3
