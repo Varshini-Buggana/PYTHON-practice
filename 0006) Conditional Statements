@@ -1,33 +1,38 @@
 # Conditional Statements
 
-# if- else
+# if - elif - else
 
-1) Check whether a number is greater or not
-  Program:-
-  num = int(input("Enter a number: "))
-  if(num>2):
-      print("greater than 2")
-  else:
-      print("less than 2")
-  Output:-
-  Enter a number: 5
-  greater than 2
-
-2) Traffic light colours 
+1) Write a program to check if a number entered by the user is odd or even
     Program:-
-    light="Green"
-    if (light == "Red"):
-        print("stop")
-    elif (light == "Green"):
-        print("Go")
-    elif (light == "Yellow"):
-        print("Look")
+    n = int(input("Enter a number: "))
+    if n % 2 == 0:
+        print("Given number is Even number")
     else:
-        print("light is broken")
-    print("end of code")
+        print("Given number is Odd number")
     Output:-
-    Go
-    end of code
+    Enter a number: 7
+    Given number is Odd number
+
+2) Write a program to find the greatest of 3 numbers entered by the user
+    Program:-
+    A = int(input("Enter A number: "))              |        A = int(input("Enter A number: "))
+    B = int(input("Enter B number: "))              |        B = int(input("Enter B number: ")) 
+    C = int(input("Enter C number: "))              |        C = int(input("Enter C number: "))
+    if A > B:                                       |        if(A>=B and A>=C):
+        if A > C :                                  |             print(A,"is greatest number")
+            print("A is greatest number")           |        elif(B>=C):
+        else:                                       |             print(B,"is greatest number")
+            print("C is greatest number")           |        else:
+    else:                                           |             print(C,"is greatest number") 
+        if B > C:                                   |
+            print("B is greatest number")           |
+        else:                                       |
+            print("C is greatest number")           |
+    Output:-                                        |        Output:-
+    Enter A number: 9                               |        Enter A number: 5
+    Enter B number: 4                               |        Enter B number: 7
+    Enter C number: 5                               |        Enter C number: 2
+    A is greatest number                            |        7 is greatest number
 
 3) Voting
     Program:-
@@ -56,3 +61,44 @@
     Output:-
     Enter your marks: 96
     Grade A
+
+5) Check whether a number is greater or not
+  Program:-
+  num = int(input("Enter a number: "))
+  if(num>2):
+      print("greater than 2")
+  else:
+      print("less than 2")
+  Output:-
+  Enter a number: 5
+  greater than 2
+
+6) Write a program to check if a number is a multiple of 7 or not
+    Program:-
+    num = int(input("Enter a number: "))
+    if(num % 7 == 0):
+        print(num,"is multiple of 7")
+    else:
+        print(num,"is not multiple of 7")
+    Output:-
+    Enter a number: 14
+    14 is multiple of 7
+    Output:-
+    Enter a number: 9
+    9 is not multiple of 7
+
+7) Traffic light colours 
+    Program:-
+    light="Green"
+    if (light == "Red"):
+        print("stop")
+    elif (light == "Green"):
+        print("Go")
+    elif (light == "Yellow"):
+        print("Look")
+    else:
+        print("light is broken")
+    print("end of code")
+    Output:-
+    Go
+    end of code
