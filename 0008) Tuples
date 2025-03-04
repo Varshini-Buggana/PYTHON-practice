@@ -5,3 +5,11 @@ CODE:-
     print(grade.count("A"))
 OUTPUT:-
     3
+
+# Store this tuple (C, D, A, A, B, b, A) in a list & sort them from "A" to "D".
+CODE:-
+    grade = ["C", "D", "A", "A", "B", "b", "A"]
+    grade.sort()
+    print(grade)
+OUTPUT:-
+    ['A', 'A', 'A', 'B', 'C', 'D', 'b']
