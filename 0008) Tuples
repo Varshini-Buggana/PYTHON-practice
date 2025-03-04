@@ -1,0 +1,7 @@
+# Write a program to count the number of students with the "A" grade in the following tuple.
+("C", "D", "A", "A", "B", "b", "A")
+CODE:-
+    grade = ("C", "D", "A", "A", "B", "b", "A")
+    print(grade.count("A"))
+OUTPUT:-
+    3
