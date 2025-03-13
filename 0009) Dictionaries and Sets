@@ -1,0 +1,68 @@
+1)    Problem Statement:-
+      Store following word meanings in a python dictionary:
+      table: "a piece of furniture", "list of facts & figures"
+      cat: "a small animal"
+      
+      Code:-
+      dictionary = { 
+          "cat" : "a small animal", 
+          "table" : ["a piece of furniture", "list of facts & figures"]
+      }
+      print(dictionary)
+      
+      Output:- 
+      {'cat': 'a small animal', 'table': ('a piece of furniture', 'list of facts & figures')}
+
+2)    problem Statement:-
+      You are given a list of subjects for students. Assume one classroom is required for 1 subject. How many classrooms are needed by all students.
+      "Python", "Java", "C++", "Python", "JavaScript", "Java", "Python", "Java", "C++", "C"
+      
+      Code:- 
+      subjects = {"Python", "Java", "C++", "Python", "JavaScript", "Java", "Python", "Java", "C++", "C"}
+      print(subjects)
+      print(len(subjects))
+      
+      Output:-
+      {'Python', 'C', 'JavaScript', 'C++', 'Java'}
+      5
+
+3)    Problem:-
+      Write a program to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add only one. Use subject name as key & marks as value.
+      
+      Code:-
+      marks = {}
+      x = int(input("Enter Maths marks: "))
+      marks.update({"Maths" : x})
+      x = int(input("Enter Physics marks: "))
+      marks.update({"Physics" : x})
+      x = int(input("Enter Chemistry marks: "))
+      marks.update({"Chemistry" : x})
+      print(marks)
+      
+      Output:-
+      Enter Maths marks: 99
+      Enter Physics marks: 95
+      Enter Chemistry marks: 98
+      {'Maths': 99, 'Physics': 95, 'Chemistry': 98}
+
+4)    Problem:-
+      Find out a way to store 9 & 9.0 as separate values in the set. (you can take help of built-in data types)
+      
+      Code:-
+      values = {9, 9.0}
+      print(values)
+      values = {9, "9.0"}
+      print(values)
+      values = {"9", 9.0}
+      print(values)
+      values = {
+          ("float", 9.0),
+          ("int", 9)
+      }
+      print(values)
+      
+      Output:-
+      {9}
+      {9, '9.0'}
+      {'9', 9.0}
+      {('float', 9.0), ('int', 9)}
